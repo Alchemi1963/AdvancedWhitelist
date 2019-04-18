@@ -1,0 +1,16 @@
+name: AdvancedWhitelist
+main: com.alchemi.advancedwhitelist.main
+version: ${project.version}
+api-version: 1.13
+author: Alchemi
+description: A better whitelist manager.
+
+commands:
+  whitelist:
+    description: Whitelist commands
+    usage: /whitelist <add|remove|on|off|show|enforce>
+
+permissions:
+  awl.whitelist:
+    description: Perm to whitelist
+    default: false
